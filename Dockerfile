@@ -1,6 +1,6 @@
 FROM python:3.8.1-alpine
 
-LABEL maintainer="chaostoolkit <contact@chaostoolkit.org>"
+LABEL maintainer="Viktor Farcic <viktor@farcic.com>"
 
 RUN apk add --no-cache --virtual build-deps gcc g++ git libffi-dev linux-headers python3-dev musl-dev && \
     pip install --no-cache-dir  -q -U pip && \
