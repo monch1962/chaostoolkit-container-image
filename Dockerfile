@@ -7,6 +7,7 @@ RUN apk add --no-cache --virtual build-deps gcc g++ git libffi-dev linux-headers
     pip install --no-cache-dir chaostoolkit && \
     pip install --no-cache-dir chaostoolkit-kubernetes && \
     pip install --no-cache-dir chaostoolkit-istio && \
+    pip install --no-cache-dir slackclient==1.3.2 && \
     pip install --no-cache-dir chaostoolkit-slack && \
     apk del build-deps
 
